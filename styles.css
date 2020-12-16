@@ -3,3 +3,7 @@
     padding-right:30px;
     margin: 0 auto;
   }
+
+  #img-container{
+      max-height: 520px!important;
+  }
