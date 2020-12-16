@@ -7,3 +7,17 @@
   #img-container{
       max-height: 520px!important;
   }
+
+  .paragraph-container{
+      line-height: 27.5px;
+      text-align: justify;
+      text-transform: none;
+  }
+
+  #contact-container{
+      min-height: 75vh;
+  }
+
+  .contact-div{
+      text-transform: uppercase;
+  }
