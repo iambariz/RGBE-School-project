@@ -1,11 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Poppins&family=Roboto&display=swap');
+
+:root {
+    --primary:  #00563B;
+    --secondary: #004526;
+    --alterOne:     #808000;
+    --alterTwo: #4f534f;
+    --light: #b4e7ce;
+
+    --primary-trans: #51be69df;
+  }
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
 .navbar-nav > li{
-    padding-left:30px;
+    padding-left:30px;    
     padding-right:30px;
     margin: 0 auto;
+    color: #fff!important;
   }
+
+  #navbar-main{
+    background-color: var(--primary)!important;
+    color: #fff!important;
+  }
+
+ .nav-link{
+     color: #fff!important;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-weight: bold;
+ }
+
+ .navbar-brand{
+    font-family: 'Cinzel Decorative', cursive!important;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #fff!important;
+
+ }
+
 
   #img-container{
       max-height: 520px!important;
+
   }
 
   .paragraph-container{
@@ -21,3 +68,31 @@
   .contact-div{
       text-transform: uppercase;
   }
+
+  .container-main-color{
+    background-image: linear-gradient(100deg, var(--primary) 0%, var(--secondary) 100%);
+    color: #fff;
+  }
+
+  .btn-custom{
+      background-color: var(--primary);
+      color: #fff;      
+  }
+
+  .hr-primary{
+    border: 1px solid var(--primary);
+    max-width: 220px;
+  }
+
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    max-height: 500px;
+    max-width: 499px;
+} 
+.mapouter {
+  position: relative;
+  text-align: right;
+  max-height: 500px;
+  max-width: 499px;
+}
