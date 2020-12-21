@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Poppins&family=Roboto&display=swap');
 
+/* General styles */
+
 :root {
     --primary:  #00563B;
     --secondary: #004526;
     --alterOne:     #808000;
     --alterTwo: #4f534f;
     --light: #b4e7ce;
-
     --primary-trans: #51be69df;
   }
 
@@ -17,8 +18,6 @@ h1,h2,h3,h4,h5,h6{
 body{
   font-family: 'Roboto', sans-serif;
 }
-
-
 
 .navbar-nav > li{
     padding-left:30px;    
@@ -35,7 +34,7 @@ body{
  .nav-link{
      color: #fff!important;
      text-transform: uppercase;
-     letter-spacing: 2px;
+     letter-spacing: 4px;
      font-weight: bold;
  }
 
@@ -48,7 +47,6 @@ body{
     color: #fff!important;
 
  }
-
 
   #img-container{
       max-height: 520px!important;
@@ -83,6 +81,14 @@ body{
     border: 1px solid var(--primary);
     max-width: 220px;
   }
+
+
+  .card{
+    max-width: 350px;
+    min-width: 200px;
+  }
+
+/* Map styles */
 
   .gmap_canvas {
     overflow: hidden;
