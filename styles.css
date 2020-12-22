@@ -126,3 +126,19 @@ min-width: 200px;
   max-width: 499px;
 }
 
+/* Hero */
+
+#hero{
+  background-image:
+  linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ),
+   url(images/cover.png);
+  background-position: center;
+  background-size: cover; 
+}
+
+.hero-container{
+  color: #fff!important;
+}
