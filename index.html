@@ -100,13 +100,14 @@
     </div>
     <!-- Main content ends -->
 
+
     <!-- What's on starts -->
 
     <div class="container py-4">
+        <hr class="hr-primary long">
         <div class="row">
             <div class="col-md-12 ">
                 <h1 class="py-4">Upcoming events</h1>
-
 
                 <div class="row">
                     <div class="col-md-6">
@@ -141,7 +142,8 @@
 
                     <div class="col-md-6 my-auto">
                         <p>
-                            <span class="paragraph-title">Tickets</span> (£5): click here to book
+                            <span class="paragraph-title">Tickets</span> (£5):
+                            <a href="" class="see-more">See more</a>
                         </p>
                         <p>
                             <span class="paragraph-title">Venue:</span> External site
@@ -183,6 +185,14 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <!-- Custom JavaScript -->
+    <script>
+        const button = document.querySelector(".see-more");
+
+        button.addEventListener('click', (e) => {
+            e.preventDefault(); //Prevent refresh site on click
+            alert("Coming soon!");
+        })
+    </script>
 </body>
 
 </html>
